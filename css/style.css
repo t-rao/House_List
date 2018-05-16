@@ -244,7 +244,11 @@ letter-spacing: 1px;
     margin-bottom: 40px;
     margin-top: 40px;
 }
+  .section-06  .gray_bg:first-child{
+    text-align: center;
+    padding: 40px;
   }
+
   .section-06  .gray_bg{
     padding: 0px;
     text-align: left;
@@ -396,6 +400,9 @@ letter-spacing: 1px;
     background-color: green;
     border-radius: 100%;
   }
+  .circle_pic img{
+    width: 100%;
+  }
   .price_table{
     width: 100%;
     margin: 0 auto;
@@ -428,6 +435,9 @@ letter-spacing: 1px;
     background-color: red;
     border-radius: 100%;
     margin: 40px auto;
+  }
+  .circle_redpic img{
+    width: 100%;
   }
   .rect_pic {
     width: 300px;
@@ -462,11 +472,11 @@ letter-spacing: 1px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap:10px;
+    grid-row-gap: 50px;
     text-align: center;
     margin-bottom: 80px;
   }
   .grid_cir_item img{
-    background-color: red;
     width: 150px;
     height: 150px;
     border-radius: 100%;
@@ -489,8 +499,7 @@ letter-spacing: 1px;
 }
 .foo_tab_grid{
 display: grid;
-grid-template-rows: repeat(8, 1fr);
-grid-row-gap: 40px;
+grid-template-rows: repeat(2, 1fr);
 }
 .foot_item{
   border-bottom: 1px solid black;
@@ -782,13 +791,28 @@ grid-row-gap: 40px;
     margin-top: 50px;
   }
   .sns_section ul {
-    width: 25%;
+    width: 30%;
   }
   .calofact ul {
     width: 55%;
   }
   .calofact ul li {
     height: 120px;
+  }
+  .foot_item{
+    text-align: left;
+    align-self: center;
+  }
+  .foo_tab_grid{
+    width: 600px;
+    margin: 0 auto;
+  }
+  .mb-5{
+    margin-bottom: 5rem;
+  }
+  .grid_cir_item img {
+    width: 200px;
+    height: 200px;
   }
 }
 
