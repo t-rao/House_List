@@ -68,7 +68,6 @@
     border: none;
     border-radius: 4px;
     margin: 0 auto;
-    margin-top: 50px;
   }
   .btn_green img {
     width: 90%;
@@ -344,7 +343,8 @@ letter-spacing: 1px;
     color: white;
   }
   .calofact ul li img {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
   .calofact ul li:first-child {
     background-color: green;
@@ -389,7 +389,7 @@ letter-spacing: 1px;
   }
   .card_item {
     border: 1px solid black;
-    padding: 20px 20px;
+    padding: 40px 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 20px;
@@ -427,6 +427,10 @@ letter-spacing: 1px;
   .card_body {
     grid-column: 2/4;
     align-self: center;
+  }
+  .card_body h5{
+      margin-bottom: 15px;
+      font-weight: 600;
   }
   .section-07 {
     margin-bottom: 60px;
@@ -490,23 +494,25 @@ letter-spacing: 1px;
   padding: 20px;
   margin: 0 auto;
   background-color: gray;
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
 
 }
 .footer{
   padding-top: 30px;
-  margin-top: 80px;
+  margin-top: 40px;
   padding-bottom: 30px;
   text-align: center;
 }
 .foo_tab_grid{
-display: grid;
-grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
 }
 .foot_item{
   border-bottom: 1px solid black;
   display: grid;
-  grid-template-columns: 1fr;
+text-align: center;
+margin: 30px auto;
 }
 .foot_item p{
   font-weight: lighter;
@@ -516,6 +522,17 @@ grid-template-rows: repeat(2, 1fr);
 }
 .section-02{
   margin-bottom: 50px;
+}
+.gray_bg2{
+background-color: #f4f4f4;
+}
+.panel h5{
+  font-size: 30px;
+color: #ff4e25;
+}
+.faq_item h4 span{
+  font-size: 50px;
+margin-right: 20px;
 }
 }
 
@@ -636,11 +653,12 @@ grid-template-rows: repeat(2, 1fr);
     width: 740px;
   }
   .sns_section ul img {
-    width: 60%;
+    width: 80%;
   }
   .sns_section ul {
-    width: 30%;
-  }
+    width: 20%;
+}
+
   .mb-5 {
     margin-bottom: 5rem;
   }
@@ -683,7 +701,14 @@ grid-template-rows: repeat(2, 1fr);
   .foot_item{
     border-bottom: 1px solid black;
     display: grid;
-    grid-template-columns:1fr 1fr;
+    text-align: left;
+    margin: 30px auto;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+
+  }
+  .foo_tab_grid {
+    width: 80%;
   }
   .foot_item:last-child{
     border:none;
@@ -707,6 +732,14 @@ grid-template-rows: repeat(2, 1fr);
   }
   .gray_bgheading{
   background-color: transparent!important;
+  }
+  .calofact ul li img {
+    width: 85%;
+    margin: 0 auto;
+}
+.rect_pic {
+    width: 700px;
+    height: 400px;
   }
 }
 
