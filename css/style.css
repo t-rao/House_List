@@ -83,9 +83,6 @@
     margin: 0 auto;
     overflow: hidden;
   }
-  .rect_pic img{
-    width: 100%;
-  }
   .wrapper {
     grid-template-rows: minmax(550px, auto);
   }
@@ -556,6 +553,7 @@ margin: 30px auto;
 }
 .gray_bg2{
 background-color: #f4f4f4;
+padding-bottom: 40px;
 }
 .faq_grid li{
   list-style: none;
