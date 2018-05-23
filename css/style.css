@@ -83,6 +83,9 @@
     margin: 0 auto;
     overflow: hidden;
   }
+  .rect_pic img{
+    width: 100%;
+  }
   .wrapper {
     grid-template-rows: minmax(550px, auto);
   }
