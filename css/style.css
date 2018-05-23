@@ -585,6 +585,9 @@ font-family: HiraginoSansw6;
 .grid_cir_item h4{
 font-family: HiraginoSansw6;
 }
+.rect_pic img{
+  width: 100%;
+}
 }
 
 /* Extra Small Devices, Phones */
